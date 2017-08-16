@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TmpSuite]">
+  <test name="TmpTest(failed)" preserve-order="false">
+    <classes>
+      <class name="gsr.Qbend.Admin.CreatePublisher">
+        <methods>
+          <include name="BroserClose"/>
+          <include name="ValidPublisher"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

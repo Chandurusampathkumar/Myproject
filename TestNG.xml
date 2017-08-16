@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Automation Test" verbose="1" >
+
+
+<test name="1st Test" >
+    <classes>
+       <class name="gsr.Qbend.Admin.CreatePublisher" />
+    </classes>
+  </test> 
+ 
+  <test name="2nd Test">
+    <classes>
+      <class name="gsr.Qbend.Admin.CreateAuthor"/>
+      
+    </classes>
+  </test>
+  <test name="3rd Test">
+    <classes>
+      <class name="gsr.Qbend.Admin.CreateNewBook"/>
+      
+    </classes>
+  </test>
+  
+  <test name="4th Test">
+    <classes>
+      <class name="gsr.Qbend.Admin.BookcatalogCUnit"/>
+      
+    </classes>
+  </test>
+  <test name="5th Test">
+    <classes>
+      <class name="gsr.Qbend.Admin.BookCatalogCIssue"/>
+      
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Chanduru-PC" name="gsr.Qbend.Admin.CreatePublisher" tests="3" failures="1" timestamp="10 May 2014 19:10:10 GMT" time="17.74" errors="0">
+  <testcase name="ValidPublisher" time="17.73" classname="gsr.Qbend.Admin.CreatePublisher">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at gsr.Qbend.Admin.CreatePublisher.ValidPublisher(CreatePublisher.java:94)
+	at gsr.Qbend.Common.Test.main(Test.java:71)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="BroserClose" time="0.0" classname="gsr.Qbend.Admin.CreatePublisher">
+    <skipped/>
+  </testcase>
+  <testcase name="QbendMain" time="0.0" classname="gsr.Qbend.Admin.CreatePublisher"/>
+</testsuite>
